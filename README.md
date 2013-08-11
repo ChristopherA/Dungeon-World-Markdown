@@ -1,16 +1,26 @@
-# Dungeon World
-Dungeon World is a tabletop roleplaying game. This text tells you how to play that game.
+# Dungeon World 
 
-You'll find the entire text of the game, broken up by chapter, here. The text is formatted in XML designed to be consumed by [InDesign](http://www.adobe.com/products/indesign.html). Forgive any odd formatting or bad style, that's usually a concession to InDesign.
+[Dungeon World](http://www.dungeon-world.com) is a fantasy tabletop roleplaying
+game powered by the [Apocolypse World](http://apocalypse-world.com) engine and
+written by [Sage LaTorra](http://www.latorra.org) and [Adam
+Koebel](http://skinnyghost.tumblr.com). The full rules of the game are
+avaliable on github here:
+[Sagelt/Dungeon-World](https://github.com/Sagelt/Dungeon-World)
 
-The InDesign files are also available here. They're not guaranteed to work since the InDesign file format uses fully qualified paths. The layout files make use of proprietary fonts, so some fonts may not load. The art used in the printed version of the game is not included.
+## Conversion
 
-## License
-See the LICENSE file for the full details, but here's the basics: you're free to use this text any way you like so long as you credit the authors.
+I have converted the XML text files to Markdown using [Aaron
+Swartz's](http://www.aaronsw.com)
+[aaronsw/html2text](https://github.com/aaronsw/html2text).
 
-What we hope you do with it is make new stuff: make classes, adventures, moves, even whole new games.
+Markdown was selected as the target language for a few reasons:
 
-## Contributing
-In case you're a roleplaying game geek who also wants to contribute directly, we're open to pull requests. Typo fixes and editing would be wonderful.
+    1. It is far more human readable than XML
+    2. It is easy to convert to HTML (or any other markup language)
+    3. It is very close to [vimiwiki](https://github.com/vimwiki/vimwiki)
+       syntax (which I use extensively for my RPG needs)
 
-If you start a pull request please also modify text/appendices/Thanks.xml and add your name to the Contributors section so we can thank you.
+## Issues
+
+I'm sure there are issues where the automatic conversion failed. They will be
+corrected as found.
