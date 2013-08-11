@@ -15,10 +15,10 @@ Swartz's](http://www.aaronsw.com)
 
 Markdown was selected as the target language for a few reasons:
 
-    1. It is far more human readable than XML
-    2. It is easy to convert to HTML (or any other markup language)
-    3. It is very close to [vimiwiki](https://github.com/vimwiki/vimwiki)
-       syntax (which I use extensively for my RPG needs)
+1. It is far more human readable than XML
+2. It is easy to convert to HTML (or any other markup language)
+3. It is very close to [vimiwiki](https://github.com/vimwiki/vimwiki)
+   syntax (which I use extensively for my RPG needs)
 
 ## Issues
 
